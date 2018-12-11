@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+    src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "Raleway", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+    background: #fff;
+}
+
+
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+
+.face {
+
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+
+.property-1 {
+
+    background: #3dcdbc;
+    background: -moz-linear-gradient(left, #3dcdbc 0%, #33a1bd 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #3dcdbc), color-stop(100%, #33a1bd));
+    background: -webkit-linear-gradient(left, #3dcdbc 0%, #33a1bd 100%);
+    background: -o-linear-gradient(left, #3dcdbc 0%, #33a1bd 100%);
+    background: -ms-linear-gradient(left, #3dcdbc 0%, #33a1bd 100%);
+    background: linear-gradient(to right, #3dcdbc 0%, #33a1bd 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3dcdbc', endColorstr='#33a1bd', GradientType=1);
+    padding-top: 13rem;
+    padding-bottom: 13rem;
+}
+
+.property-1 h1 {
+    font-size: 50px;
+    line-height: 1.2 !important;
+    margin-bottom: 30px !important;
+    color: #d3f1ed;
+    font-weight: 100;
+}
+
+.property-1 p {
+    color: #d3f1ed;
+    font-size: 20px;
+}
+
+
+#competence {
+    background: #FFFFFF;
+    padding-top: 12rem;
+    padding-bottom: 15rem;
+
+}
+
+#competence .contenue-competence h3
+{
+    font-family: "Raleway", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #777;
+
+}
+
+
+
+
+h1,
+h2,
+h4,
+h5,
+h6,
+figure {
+    font-family: "Raleway", Arial, sans-serif;
+    margin: 0 0 20px 0;
+    font-size: 40px;
+    margin-bottom:60px;
+    line-height: 1.5;
+    color: #4d4d4d;
+    font-weight: 300;
+}
+
+
+.copyright {
+  margin-top: 30px;
+  float: left;
+  width: 100%;
+    background: 
+}
+
+
+/* Style the navigation bar */
+.icon-bar {
+  width: 100%; /* Full-width */
+  background-color: #555; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+    
+}
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+  background-color: #000; /* Add a hover color */
+}
+
+.active {
+  background-color: #4CAF50; /* Add an active/current color */
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
